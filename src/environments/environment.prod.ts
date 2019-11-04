@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
-};
+  production: true,
+  pixelCount: 128,
+  opcServer: 'led-controller.local:7890/'
+}
