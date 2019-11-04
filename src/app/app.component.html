@@ -1,10 +1,19 @@
 <main [class.mat-typography]="true">
     <app-led-controller [pixels]="allPixels"
                         name="All Pixels"></app-led-controller>
+
+    <mat-divider></mat-divider>
+
     <app-led-controller [pixels]="everyOtherA"
                         name="Every Other A"></app-led-controller>
     <app-led-controller [pixels]="everyOtherB"
                         name="Every Other B"></app-led-controller>
 
+    <mat-divider></mat-divider>
+
+    <app-led-controller [pixels]="dormerE"
+                        name="Dormer East"></app-led-controller>
+    <app-led-controller [pixels]="dormerW"
+                        name="Dormer dormerW"></app-led-controller>
 
 </main>
